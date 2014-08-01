@@ -1,9 +1,10 @@
 {
-  "name": "node-cassandra-cql",
-  "version": "0.4.4",
-  "description": "Node.js driver for Apache Cassandra",
-  "author": "Jorge Bay <jorgebaygondra@gmail.com>",
+  "name": "priam-cassandra-cql",
+  "version": "0.4.6",
+  "description": "Node.js driver for Apache Cassandra - fork from node-cassandra-cql that includes Kit Cambridge's normalize-typed-value-v1 branch for the binary v1 protocol. Specifically used for the Go Daddy Priam driver.",
+  "author": "Stephen Commisso <scommisso@godaddy.com>",
   "contributors" :[
+    "Jorge Bay",
     "Andrew Kish",
     "Tommy Messbauer",
     "Adam Faulkner",
@@ -12,19 +13,16 @@
     "Jan Schmidle",
     "Sam Grönblom",
     "Daniel Smedegaard Buus",
-    "Bryce Baril"
+    "Bryce Baril",
+    "Kit Cambridge"
   ],
   "keywords": [
-    "cassandra",
-    "cql",
-    "cql3",
-    "connection",
-    "pool"
+    "priam"
   ],
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/jorgebay/node-cassandra-cql/raw/master/LICENSE.txt"
+      "url": "https://raw.githubusercontent.com/godaddy/node-cassandra-cql/normalize-typed-value-v1/LICENSE.txt"
     }
   ],
   "dependencies": {
@@ -35,12 +33,12 @@
   "devDependencies": {
     "mocha": ">= 1.14.0"
   },
-  "repository": { 
-    "type" : "git", 
-    "url" : "https://github.com/jorgebay/node-cassandra-cql.git"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/godaddy/node-cassandra-cql.git"
   },
-  "bugs": { 
-    "url" : "https://github.com/jorgebay/node-cassandra-cql/issues"
+  "bugs": {
+    "url" : "https://github.com/https://github.com/godaddy/node-cassandra-cql.git/node-cassandra-cql/issues"
   },
   "engines": {"node" : ">=0.10.0"},
   "scripts": {
